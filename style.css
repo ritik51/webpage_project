@@ -1,0 +1,89 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+#logo{ margin: 34px;
+    color: aliceblue;
+}
+
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+#navbar::before{
+    content:"";
+    background-color:black ;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.6
+}
+#navbar ul li{
+ list-style: none;
+ font-size: 1rem;
+}
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding:30px;
+    border-radius:50
+    px;
+    text-decoration:none;
+
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white ;
+   }
+   #home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 10px;
+    justify-content: center;
+    align-items: center;
+
+   }
+   #home{
+    content:"";
+    background: url('../bg1.jpg') ;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.98
+    
+
+   }
+   #home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+   }
+   #home p1{
+    color:white;
+    text-align: center;
+    font-size:1-srem;
+    font-family:'Bree Serif',serif;
+   }
+
+   .h-primary{
+    font-size: 2rem;
+    padding: 12px;
+   }
+   .btn{
+    padding: 6px 20px;
+    border:2px solid white;
+    background-color: rgb(8, 30, 30);
+    margin: 17px 3px;
+    font-size: 1.5 rem;
+    border-radius: 10px;
+   }
